@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Эльдар Нугаев](https://up.htmlacademy.ru/htmlcss/35/user/298013).
-* Наставник: `Неизвестно`.
+* Наставник: [Roman Zheltov](https://htmlacademy.ru/profile/id1145037).
 
 ---
 
