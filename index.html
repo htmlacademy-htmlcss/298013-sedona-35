@@ -5,8 +5,96 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header class="page-header">
+      <img class="logo-sedona" src="#" alt="Логотип проекта Седона">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item"><a class="navigation-link" href="index.html">Главная</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="about.html">О Седоне</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item"><a class="navigation-link" href="index.html"><img src="" alt="Поиск"></a></li>
+          <li class="navigation-item"><a class="navigation-link" href="index.html"><img src="" alt="Избранное"></a></li>
+        </ul>
+        <a href="#"><input class="button-primary" type="button" name="button-cta-header" id="button-cta-header" value="ХОЧУ СЮДА!"></a>
+      </nav>
+    </header>
+    <main class="main-index">
+      <h1 class="visually-hidden">Учебный проект Седона</h1>
+      <section class="hero">
+        <img src="#" alt="Добро пожаловать в великолепную Седону. Мы круче Гранд-Каньона!">
+      </section>
+      <section class="description">
+        <h2>Седона&nbsp;&mdash; небольшой городок в&nbsp;Аризоне,<br>заслуживающий большего!</h2>
+        <p>Рассмотрим причины, по&nbsp;которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+      <section class="advantage high-accent">
+        <h3>Настоящий<br>городок</h3>
+        <img class="advantage-devider" src="#" alt="Разделитель перед объяснением">
+        <p>Седона&nbsp;&mdash; не&nbsp;аттракцион для туристов, там течёт своя жизнь</p>
+      </section>
+      <section class="advantage img-accent"></section>
+      <section class="advantage low-accent">
+        <h3>Небольшая<br>площадь</h3>
+        <img class="advantage-devider" src="#" alt="Разделитель перед объяснением">
+        <p>Все достопримечательности находятся очень близко</p>
+      </section>
+      <section class="advantage mid-accent">
+        <h3>Красивая<br>дорога</h3>
+        <img class="advantage-devider" src="#" alt="Разделитель перед объяснением">
+        <p>Ехать в&nbsp;Седону из&nbsp;Лас-Вегаса совсем не&nbsp;скучно!</p>
+      </section>
+      <section class="advantage low-accent">
+        <h3>Мало<br>туристов</h3>
+        <img class="advantage-devider" src="" alt="Разделитель перед объяснением">
+        <p>Большинство едет в&nbsp;Гранд Каньон и&nbsp;толпится там</p>
+      </section>
+      <section class="advantage img-accent"></section>
+      <section class="advantage high-accent">
+        <h3>Там есть<br>мост дьявола</h3>
+        <img class="advantage-devider" src="#" alt="Разделитель перед объяснением">
+        <p>Да, по&nbsp;нему можно пройти! Если вы&nbsp;осмелитесь, разумеется</p>
+      </section>
+      <section class="advantage mid-accent">
+        <img src="#" alt="Собирательный образ жилья">
+        <h3>Жильё</h3>
+        <p>Рекомендуем пожить в&nbsp;настоящем мотеле, всё как в&nbsp;кино!</p>
+      </section>
+      <section class="advantage no-accent">
+        <img src="#" alt="Собирательный образ еды">
+        <h3>Еда</h3>
+        <p>Всегда заказывайте топовый фирменный бургер, вы&nbsp;не&nbsp;разочаруетесь!</p>
+      </section>
+      <section class="advantage mid-accent">
+        <img src="#" alt="Собитрательный образ сувениров">
+        <h3>Сувениры</h3>
+        <p>Не&nbsp;только китайского, но&nbsp;и&nbsp;настоящего местного производства!</p>
+      </section>
+      <section class="cta-main">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки, и&nbsp;мы&nbsp;покажем вам лучшие предложения гостиниц в&nbsp;Седоне</p>
+        <a href="#"><input class="button-primary" type="button" name="button-cta-main" id="button-cta-main" value="ПОИСК ГОСТИНИЦЫ В СЕДОНЕ"></a>
+      </section>
+      <section class="subscribe">
+        <h2>Подпишитесь на рассылку</h2>
+        <p>Только полезная информация и&nbsp;никакого спама,<br>честное бойскаутское!</p>
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="get">
+          <input class="subscribe-input" type="text" name="subscribe-email" placeholder="Ваш e-mail">
+          <input class="subscribe-button" type="submit" name="subscribe-submit" value="Подписаться">
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <section class="contacts">
+        <ul class="socials">
+          <li class="socials-item"><a class="socials-link" href="#"><img src="" alt="ВКонтакте"></a></li>
+          <li class="socials-item"><a class="socials-link" href="#"><img src="" alt="Telegram"></a></li>
+          <li class="socials-item"><a class="socials-link" href="#"><img src="" alt="YouTube"></a></li>
+        </ul>
+        <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <img class="logo-htmlacademy" src="#" alt="Логотип HTML Академии">
+      </section>
+    </footer>
   </body>
 </html>
