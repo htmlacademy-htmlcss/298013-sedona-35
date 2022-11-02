@@ -1,3 +1,5 @@
+/* Общие стили */
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -16,6 +18,158 @@
 
 body {
   font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/* Стили главной страницы */
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hero {
+  height: 485px;
+  background-color: #83B3D3;
+  background-image: url("../images/main/hero-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero img {
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  height: 285px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.advantage {
+  height: 384px;
+  text-align: center;
+}
+
+.advantage h3 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.divider-invert{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.advantage p {
   font-size: 18px;
   line-height: 21px;
+}
+
+.high-accent {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.high-accent p {
+  color: #ffffff;
+}
+
+.mid-accent {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.low-accent {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.cta-main {
+  height: 406px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.subscribe {
+  height: 415px;
+  color: #ffffff;
+  background-color: #83B3D3;
+  background-image: url("../images/main/subscribe-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subscribe h2 {
+  color: #ffffff;
+}
+
+.subscribe p {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+.phone {
+  color: #000000;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
 }
