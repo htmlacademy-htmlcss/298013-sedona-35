@@ -173,3 +173,82 @@ p {
   line-height: 40px;
   text-decoration: none;
 }
+
+/* Стили главной страницы */
+
+.main-catalog {
+  color: #ffffff;
+  background-color: #83B3D3;
+  background-image: url("../images/catalog/filters-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.catalog-filter-list {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotel-list {
+  color: #000000;
+}
+
+.hotel-list a {
+  color: #000000;
+  text-decoration: none;;
+}
+
+.hotel-list h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-list dl {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-list dd {
+  text-align: right;
+}
+
+.rating-value {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pagination {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.pagination-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-current, .pagination-gap {
+  color: #000000;
+}
+
+.subscribe-catalog {
+  height: 415px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
