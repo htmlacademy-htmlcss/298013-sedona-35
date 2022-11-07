@@ -54,6 +54,48 @@ p {
   display: none;
 }
 
+.button-primary {
+  background-color: #756157;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-secondary {
+  background-color: #82B3D3;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-tertiary {
+  background-color: #7DB54F;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-ghost {
+  background-color: transparent;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-small {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 /* Стили главной страницы */
 
 .page-header {
