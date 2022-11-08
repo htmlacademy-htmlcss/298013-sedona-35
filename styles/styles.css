@@ -1,0 +1,296 @@
+/* Общие стили */
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h1 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.button-primary {
+  background-color: #756157;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-secondary {
+  background-color: #82B3D3;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-tertiary {
+  background-color: #7DB54F;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-ghost {
+  background-color: transparent;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-small {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Стили главной страницы */
+
+.page-header {
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hero {
+  height: 485px;
+  background-color: #83B3D3;
+  background-image: url("../images/main/hero-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero img {
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  height: 285px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.advantage {
+  height: 384px;
+  text-align: center;
+}
+
+.advantage h3 {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.divider-invert{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.advantage p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.high-accent {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.high-accent p {
+  color: #ffffff;
+}
+
+.mid-accent {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.low-accent {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.cta-main {
+  height: 406px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.subscribe {
+  height: 415px;
+  color: #ffffff;
+  background-color: #83B3D3;
+  background-image: url("../images/main/subscribe-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subscribe h2 {
+  color: #ffffff;
+}
+
+.subscribe p {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+.phone {
+  color: #000000;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+/* Стили главной страницы */
+
+.main-catalog {
+  color: #ffffff;
+  background-color: #83B3D3;
+  background-image: url("../images/catalog/filters-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.catalog-filter-list {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.hotel-list {
+  color: #000000;
+}
+
+.hotel-list a {
+  color: #000000;
+  text-decoration: none;;
+}
+
+.hotel-list h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-list dl {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-list dd {
+  text-align: right;
+}
+
+.rating-value {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.pagination {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.pagination-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pagination-current, .pagination-gap {
+  color: #000000;
+}
+
+.subscribe-catalog {
+  height: 415px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
